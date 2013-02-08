@@ -1,0 +1,90 @@
+body { background: #ad0303; }
+
+#elvis-sort
+{
+    font-family: 'Times New Roman', Times, sans-serif;
+    line-height: 1em;
+    color: #fff9d6;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100px;
+    text-shadow: 0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+    padding: 20px 240px 30px;
+    margin: 0 auto 20px;
+}
+
+#elvis
+{
+    width: 202px;
+    height: 267px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    left: 50px;
+}
+
+.bubble { z-index: 1001; }
+
+@font-face {
+    font-family: 'IconicStroke';
+    src: url('iconic_stroke-webfont.eot');
+    src: local('☺'), url('iconic_stroke-webfont.woff') format('woff'), url('iconic_stroke-webfont.ttf') format('truetype'), url('iconic_stroke-webfont.svg#webfontIFDx5rIq') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconic
+{
+    color: inherit;
+    font-family: 'IconicStroke';
+}
+    .iconic.star:before { content: "s"; }
+
+#star
+{
+    font-family: 'IconicStroke';
+    line-height: 1em;
+    color: #ffff00;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: 0px 0px 0 rgb(231,231,-24),1px 1px 0 rgb(216,216,-39),2px 2px 0 rgb(202,202,-53),3px 3px 0 rgb(187,187,-68),4px 4px 0 rgb(173,173,-82),5px 5px 0 rgb(158,158,-97), 6px 6px 0 rgb(144,144,-111),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+.answer 
+{ 
+    font-family: 'Times New Roman', Times, sans-serif;
+    line-height: 1em;
+    color: #fff9d6;
+    font-size: 50px;
+    padding: 20px 240px 30px;
+    margin: 0 auto 20px;
+}
+
+#speech 
+{
+    -webkit-transform: scale(8.0, 8.0);
+    -moz-transform: scale(8.0, 8.0);
+    -ms-transform: scale(8.0, 8.0);
+    transform: scale(8.0, 8.0);
+    width: 15px;
+    height: 30px;
+    background-color: transparent;
+    margin: 40px 0 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    opacity: 0.001;
+    cursor: pointer;
+}
+
+    .speech-wrapper 
+    {
+        width: 60px; 
+        height: 120px; 
+        background: url(../img/mic.png) no-repeat center;
+        text-align: center;
+        position: fixed;
+        right: 80px;
+        bottom: 30px;
+    }
